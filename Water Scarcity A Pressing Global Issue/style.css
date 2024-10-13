@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header, nav, main, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    /* background-color: #eaedf0; */
+    color: #1e1b1b;
+    text-align: center;
+    padding: 20px 0;
+    /* background-blend-mode: color; */
+    text-decoration: solid;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  main {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+   main img {
+    max-width: 100%;
+    height: auto;
+    align-items: right
+    ;
+  } 
+  
+  h2 {
+    /* border-bottom: 2px solid #007acc; */
+    background-color: aquamarine;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    /* opacity: 10%; */
+    /* text-decoration: dashed; */
+    text-transform: capitalize;
+    /* text-decoration:dotted; */
+  }
+  .cn{
+    text-decoration: dashed;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  footer {
+    background-color: #282727;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .cs {
+    display: flex;
+    align-items: center;
+    margin-left: 400px; /* Adjust the value as needed */
+}
+
+  /* Add more styles as needed */
+  
